@@ -63,7 +63,8 @@ module.exports = {
             '',
             'requirement',
             'install',
-            'first-running'
+            'first-running',
+            // 'donate'
           ]
         }
       ],
@@ -91,6 +92,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'how-about-check.md'
           ]
         }
     ]
