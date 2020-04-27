@@ -38,8 +38,12 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: '开始使用',
-        link: '/usage/'
+        text: '选手端',
+        link: '/challenger/'
+      },
+      {
+        text: '管理端',
+        link: '/manager/'
       },
       {
         text: '常见问题',
@@ -56,19 +60,30 @@ module.exports = {
           title: '指南',
           collapsable: false,
           children: [
-            ''
+            '',
+            'requirement',
+            'install',
+            'first-running'
           ]
         }
       ],
-      '/usage/': [
-          {
-            title: '开始使用',
-            collapsable: false,
-            children: [
-              '',
-              'install'
-            ]
-          }
+      '/challenger/': [
+        {
+          title: '选手端',
+          collapsable: false,
+          children: [
+            '',
+          ]
+        }
+      ],
+      '/manager/': [
+        {
+          title: '管理端',
+          collapsable: false,
+          children: [
+            '',
+          ]
+        }
       ],
       '/question/': [
         {
