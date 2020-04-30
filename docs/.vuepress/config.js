@@ -64,7 +64,11 @@ module.exports = {
             'requirement',
             'install',
             'first-running',
-            // 'donate'
+            'structure',
+            'develop',
+            'i18n',
+            'contributor',
+            'donate'
           ]
         }
       ],
@@ -74,6 +78,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'gamebox',
+            'rank',
+            'bulletin'
           ]
         }
       ],
@@ -83,6 +90,13 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'panel',
+            'team',
+            'challenge',
+            'gamebox',
+            'flag',
+            'bulletin',
+            'account'
           ]
         }
       ],
