@@ -34,3 +34,7 @@ chmod +x ./Cardinal
 # 运行
 ./Cardinal
 ```
+
+::: warning
+由于 Cardinal 处于快速迭代中，因此请从`master`分支 clone 代码。不要将`dev`分支的代码用于生产环境！
+:::
