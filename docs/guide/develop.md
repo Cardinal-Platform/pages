@@ -28,3 +28,11 @@ if (process.env.NODE_ENV === 'development') {
     baseURL = 'http://localhost:19999/api'
 }
 ```
+
+## 后端开发
+### 更新前端
+```sh
+go get -u github.com/vidar-team/Cardinal_frontend
+
+go get -u github.com/vidar-team/Cardinal_manager_frontend
+```

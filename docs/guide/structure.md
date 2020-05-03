@@ -16,3 +16,7 @@
 * 持续集成服务：[Travis CI](https://www.travis-ci.org/)
 * 持续部署服务：[GitHub Actions](https://github.com/features/actions)
 * 集成测试覆盖率工具：[Codecov](https://codecov.io/)
+
+## 文档
+* 静态页面生成器：[VuePress](https://www.vuepress.cn/)
+* PaaS：[Vercel](https://vercel.com/)
