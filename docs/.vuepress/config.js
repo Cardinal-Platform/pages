@@ -66,6 +66,7 @@ module.exports = {
             'first-running',
             'structure',
             'develop',
+            'error-code',
             'i18n',
             'contributor',
             'donate'
