@@ -7,9 +7,9 @@ Cardinal 对于一道独立的题目（Challenge），是在`题目管理`中添
 
 设置后将立刻计算分数并刷新排行榜。
 
-## 自动更新 Flag【BETA】
+## 自动更新 Flag <Badge text="Beta" type="warning"/>
 勾选后可以开启自动更新题目 Flag 的功能。
 
 需要填写更新 Flag 所要执行的指令。在每轮结束后会自动更新靶机上的 Flag。
 
-具体在[靶机进行配置](gamebox.html#自动更新-flag【beta】)。
+具体在[靶机进行配置](gamebox.html#自动更新-flag)。
