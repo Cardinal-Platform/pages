@@ -46,6 +46,10 @@ module.exports = {
         link: '/manager/'
       },
       {
+        text: '3D实时大屏(Asteroid)',
+        link: '/asteroid/'
+      },
+      {
         text: '常见问题',
         link: '/question/'
       },
@@ -98,6 +102,16 @@ module.exports = {
             'flag',
             'bulletin',
             'account'
+          ]
+        }
+      ],
+      '/asteroid/': [
+        {
+          title: 'Asteroid',
+          collapsable: false,
+          children: [
+            '',
+            'install.md'
           ]
         }
       ],
