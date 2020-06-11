@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: img/Cardinal.png
+heroText: 
 tagline: CTF AWD (Attack with Defense) 线下赛平台
 actionText: 开始使用 →
 actionLink: /guide/install.html
