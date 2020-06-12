@@ -31,7 +31,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: '最后一次更新：',
+    lastUpdated: '上次更新：',
     nav: [
       {
         text: '指南',
@@ -111,7 +111,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'install.md'
+            'install.md',
+            'api.md'
           ]
         }
       ],
