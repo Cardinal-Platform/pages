@@ -101,7 +101,8 @@ module.exports = {
             'gamebox',
             'flag',
             'bulletin',
-            'account'
+            'account',
+            'asteroid'
           ]
         }
       ],
