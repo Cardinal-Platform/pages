@@ -31,7 +31,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: '上次更新：',
+    lastUpdated: '上次更新',
     nav: [
       {
         text: '指南',
