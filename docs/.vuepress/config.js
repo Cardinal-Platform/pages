@@ -32,6 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: '上次更新',
+    smoothScroll: true,
     nav: [
       {
         text: '指南',
