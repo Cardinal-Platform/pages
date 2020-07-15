@@ -114,6 +114,7 @@ module.exports = {
           children: [
             '',
             'install.md',
+            'setting.md',
             'api.md'
           ]
         }
