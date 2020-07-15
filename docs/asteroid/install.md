@@ -1,4 +1,5 @@
 # 开始使用
+[[toc]]
 ## Release 安装（推荐）
 [Release 下载](https://github.com/wuhan005/Asteroid/releases)适用于您目标机器的架构程序。
 
