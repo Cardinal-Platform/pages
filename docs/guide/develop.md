@@ -50,6 +50,7 @@ Cardinal 是前后端分离的 Web 应用，但最终是将前端打包进了一
 ## 后端开发
 ### 依赖
 * [Golang](https://golang.org/dl/) (v1.13+)
+* [MySQL](https://www.mysql.com/downloads/) / [MariaDB](https://mariadb.org/download/)
 
 ### 依赖安装
 ```bash
