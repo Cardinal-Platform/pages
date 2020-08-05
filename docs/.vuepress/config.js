@@ -52,10 +52,6 @@ module.exports = {
         link: '/asteroid/'
       },
       {
-        text: '视频教程(PRO)',
-        link: '/videos/'
-      },
-      {
         text: '常见问题',
         link: '/question/'
       },
