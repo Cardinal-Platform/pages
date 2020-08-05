@@ -4,8 +4,23 @@
 
 请注明您的名字或者昵称，方便我们感谢 ♪(･ω･)ﾉ
 
+给 Vidar 娘打钱：
+
 <img src="/img/Vidarchan_qiafan.jpg" width=700px/>
 
 Illustration by [@b0lv42](https://b0lv42.github.io/)
 
+
+给大茄子打钱：
+<a href="https://afdian.net/@E99p1ant">爱发电</a>
+
+
 ## 感谢
+
+|            |       |             |
+| ---------- | ----- | ----------- |
+| 2020-07-02 | ￥20.00  | 徐** |
+| 2020-07-18 | ￥100.00 | longzhs |
+| 2020-08-05 | ￥5.00   | Polar_Peak |
+| 2020-08-05 | ￥3.00   | 徐** |
+| 2020-08-05 | ￥6.66   | Hc4f0 |
