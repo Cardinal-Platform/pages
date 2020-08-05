@@ -32,6 +32,13 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
+    repoLabel: '查看源码',
+    docsRepo: 'Cardinal-Platform/pages',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: true,
+    editLinkText: '帮助我们改善此页面！',
+
     lastUpdated: '上次更新',
     smoothScroll: true,
     nav: [
