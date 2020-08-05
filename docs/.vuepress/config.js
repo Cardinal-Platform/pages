@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+const { catalogue } = require('./videos')
 
 module.exports = {
   /**
@@ -49,6 +50,10 @@ module.exports = {
       {
         text: '3D实时大屏(Asteroid)',
         link: '/asteroid/'
+      },
+      {
+        text: '视频教程(PRO)',
+        link: '/videos/'
       },
       {
         text: '常见问题',
