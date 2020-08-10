@@ -17,6 +17,10 @@ yarn install
 yarn serve
 ```
 
+::: warning
+经测试 Node.js v14.2.0 版本运行前端会报错，请考虑更换 v13.x 版本。
+:::
+
 之后访问命令行中的网址即可。
 您可以修改`./src/utils.js`文件来指定测试时的后端 API `baseURL`，从而方便您的开发。
 

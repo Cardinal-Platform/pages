@@ -19,4 +19,4 @@
 
 ## 文档
 * 静态页面生成器：[VuePress](https://www.vuepress.cn/)
-* PaaS：[Vercel](https://vercel.com/)
+* PaaS：[Netlify](https://netlify.com/)
