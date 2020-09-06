@@ -77,6 +77,7 @@ module.exports = {
             'requirement',
             'install',
             'first-running',
+            'rules',
             'structure',
             'develop',
             'error-code',
