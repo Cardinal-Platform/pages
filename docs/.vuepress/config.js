@@ -75,6 +75,7 @@ module.exports = {
           children: [
             '',
             'requirement',
+            'before-start',
             'install',
             'first-running',
             'rules',
