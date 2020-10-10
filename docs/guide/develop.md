@@ -66,55 +66,87 @@ go mod tidy
 ### 目录结构
 ```
 .
-├── asteroid            （Asteroid 大屏）
-│   ├── client.go
-│   ├── handler.go
-│   ├── hub.go
-│   └── model.go
-├── asteroid.go         （Asteroid Web API）
-├── bulletin.go         （公告 Web API）
-├── bulletin_test.go
-├── challenge.go        （题目 Web API）
-├── challenge_test.go
-├── check.go            （Check 操作）
-├── conf                （配置文件控制）
-│   ├── Cardinal.toml
-│   ├── config.go
-│   └── model.go
-├── dynamic_config.go   （动态设置）
-├── file.go             （图片上传）
-├── flag.go             （提交、刷新 Flag，SSH 测试）
-├── flag_test.go
-├── frontend            （前端文件系统）
-│   └── fs.go
-├── gamebox.go          （GameBox Web API）
-├── gamebox_test.go
-├── healthy.go          （平台健康监测）
-├── install.go          （安装）
-├── locales             （i18n 语言包）
+├── LICENSE
+├── README.md
+├── cardinal.go
+├── conf                    （配置文件）
+├── frontend                （前端）
+├── go.mod
+├── go.sum
+├── internal
+│   ├── asteroid            （Asteroid 3D 大屏）
+│   ├── auth
+│   │   ├── manager         （管理员登录验证）
+│   │   │   └── manager.go
+│   │   ├── middleware.go   （登录验证中间件）
+│   │   └── team            （选手登录验证）
+│   │       └── team.go
+│   ├── bootstrap           （启动入口）
+│   │   ├── bootstrap.go
+│   │   └── bridge.go
+│   ├── bulletin            （公告）
+│   │   └── bulletin.go
+│   ├── container           （Docker 容器支持）
+│   │   ├── container.go
+│   │   ├── docker.go
+│   │   └── image.go
+│   ├── db                  （数据库）
+│   │   ├── model.go
+│   │   └── mysql.go
+│   ├── dynamic_config      （动态设置）
+│   │   └── dynamic_config.go
+│   ├── game                （比赛相关）
+│   │   ├── bridge.go
+│   │   ├── challenge.go
+│   │   ├── check.go
+│   │   ├── flag.go
+│   │   ├── gamebox.go
+│   │   ├── rank.go
+│   │   └── score.go
+│   ├── healthy             （健康检查）
+│   │   ├── healthy.go
+│   │   └── panel.go
+│   ├── install             （安装向导程序）
+│   │   └── install.go
+│   ├── livelog             （实时日志）
+│   │   ├── handler.go
+│   │   ├── livelog.go
+│   │   ├── stream.go
+│   │   └── subscriber.go
+│   ├── logger              （后台大屏日志）
+│   │   └── log.go
+│   ├── misc                （杂项）
+│   │   ├── sentry.go
+│   │   ├── version.go
+│   │   └── webhook         （WebHook）
+│   │       └── webhook.go
+│   ├── route               （Web 路由）
+│   │   ├── router.go
+│   │   └── wrapper.go
+│   ├── store               （缓存）
+│   │   └── store.go
+│   ├── timer               （时间）
+│   │   ├── bridge.go
+│   │   └── timer.go
+│   ├── upload              （文件上传）
+│   │   └── file.go
+│   └── utils               （组件）
+│       ├── const.go
+│       ├── utils.go
+│       └── utils_test.go
+├── locales                 （国际化）
 │   ├── en-US.yml
 │   ├── i18n.go
 │   └── zh-CN.yml
-├── log.go              （日志）
-├── log_test.go
-├── main.go             （程序入口）
-├── main_test.go
-├── manager.go          （管理员账号 Web API）
-├── manager_test.go
-├── mysql.go            （数据库、表模型）
-├── rank.go             （队伍排名）
-├── router.go           （Web API 路由）
-├── score.go            （分数计算）
-├── service.go          （主服务）
-├── store.go            （缓存）
-├── team.go             （队伍 Web API）
-├── team_test.go
-├── timer.go            （时间）
-├── uploads             （上传文件夹）
-├── utils               （常用组件）
-│   └── utils.go
-├── webhook.go          （WebHook Web API）
-└── webhook_test.go
+├── test                    （测试）
+│   ├── bulletin_test.go
+│   ├── cardinal_test.go
+│   ├── challenge_test.go
+│   ├── log_test.go
+│   ├── manager_test.go
+│   ├── team_test.go
+│   └── webhook_test.go
+└── uploads                 （上传文件存储目录）
 ```
 
 ### 更新前端
