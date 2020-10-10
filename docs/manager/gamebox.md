@@ -25,3 +25,17 @@
 配置完自动更新 Flag 功能后，可以点击`测试 SSH 连接`来测试靶机连接。
 
 测试连接将 SSH 连接上服务器并使用`whoami`指令测试。
+
+## 示例靶机
+
+[Cardinal-Platform/gamebox_demo](https://github.com/Cardinal-Platform/gamebox_demo)
+
+该项目为 Cardinal 题目示例环境。其中包含了一个 Apache + PHP 搭建的 Web 站点，以及一个 MySQL 数据库，并提供了`Dockerfile`与`docker-compose.yml`。您可以参考其配置修改定制您的题目镜像，使其可以在 Cardinal 下使用。
+
+该仓库项目仅用作 Cardinal 靶机环境参考。项目本身**不是**一道 AWD 赛题。
+
+::: tip
+**你知道吗？**
+
+示例靶机的 Web 站点是使用 PHP “茄子框架”编写的——来自于我的一次课后作业。
+:::
