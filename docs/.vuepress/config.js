@@ -129,6 +129,16 @@ module.exports = {
           ]
         }
       ],
+      '/videos/': [
+        {
+          title: '视频教程',
+          collapsable: false,
+          children: [
+            'intro',
+            'install',
+          ]
+        }
+      ],
       '/question/': [
         {
           title: '常见问题',
