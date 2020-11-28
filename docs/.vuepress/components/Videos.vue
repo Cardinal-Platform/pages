@@ -24,7 +24,7 @@ import { videoPlayer } from 'vue-video-player'
 export default {
     props: {
         url: String,
-        part: Object,
+        part: Array,
     },
 
     data() {

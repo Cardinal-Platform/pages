@@ -7746,10 +7746,9 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue-video-player@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.npmjs.org/vue-video-player/-/vue-video-player-5.0.2.tgz#34a42239ff304efc7698da20a4165051d766c1e6"
-  integrity sha512-IZXeRGGSX4YIp54G0Q5cB7iqh6Ok6Dpa2jRkjdyvMWw7MShJuh54/d5QNb1CZ+CvZUzX/TH7osnpir7mBNcFvQ==
+"vue-video-player@git+https://github.com/Cardinal-Platform/vue-video-player.git":
+  version "5.0.3"
+  resolved "git+https://github.com/Cardinal-Platform/vue-video-player.git#c82618dc2f3fdc8a59fec1f760e2596a8219d061"
   dependencies:
     object-assign "^4.1.1"
     video.js "^6.6.0"

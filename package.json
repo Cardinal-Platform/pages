@@ -20,6 +20,6 @@
     "vuepress": "^1.3.1"
   },
   "dependencies": {
-    "vue-video-player": "^5.0.2"
+    "vue-video-player": "git+https://github.com/Cardinal-Platform/vue-video-player.git"
   }
 }
