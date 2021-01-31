@@ -55,7 +55,7 @@ Authorization: YOUR_TOKEN_HERE
 
 ### GET `/easterEgg` 陨石彩蛋动画
 
-### POST `/round` 设置轮数
+### POST `/time` 设置当前轮数剩余时间
 ```json
 {
   "Time": 300
