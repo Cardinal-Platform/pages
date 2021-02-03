@@ -18,12 +18,6 @@ export default {
         return {
             clients: [
                 {
-                    name: 'BugKu',
-                    image: 'bugku.png',
-                    link: 'https://ctf.bugku.com/',
-                },
-
-                {
                     name: '齐鲁师范学院网络安全社团',
                     image: 'QLNU.jpg',
                     link: '',
