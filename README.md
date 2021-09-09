@@ -1,13 +1,11 @@
-# Cardinal pages
+# pages [![Netlify Status](https://api.netlify.com/api/v1/badges/3909d70e-f128-428c-adec-77bcaef800b2/deploy-status)](https://app.netlify.com/sites/cardinal-project/deploys)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3909d70e-f128-428c-adec-77bcaef800b2/deploy-status)](https://app.netlify.com/sites/cardinal-project/deploys)
+This repository holds the source code for building cardinal.ink, it is using VuePress as the site generator and deploys to Netlify.
 
 ## Development
 
 ```bash
-yarn dev
-yarn build
+yarn docs:dev
+
+yarn docs:build
 ```
-
-For more details, please head VuePress's [documentation](https://v1.vuepress.vuejs.org/).
-

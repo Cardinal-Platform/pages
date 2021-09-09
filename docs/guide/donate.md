@@ -4,29 +4,6 @@
 
 请注明您的名字或者昵称，方便我们感谢 ♪(･ω･)ﾉ
 
-## 给 Vidar 娘打钱
-
-<img src="/img/Vidarchan_qiafan.jpg" width=700px/>
-
-Illustration by [@b0lv42](https://b0lv42.github.io/)
-
-
-## 给 @E99p1ant 大茄子打钱
-<a href="https://afdian.net/@E99p1ant" style="
-    color: rgb(255, 255, 255);
-    background-color: rgb(148, 108, 230);
-    box-shadow: none;
-    display: inline-flex;
-    font-size: 1rem;
-    padding-bottom: calc(0.5em - 1px);
-    padding-left: calc(0.75em - 1px);
-    padding-right: calc(0.75em - 1px);
-    padding-top: calc(0.5em - 1px);
-    border-width: 1px;
-    border-style: solid;
-    border-color: transparent;
-    border-image: initial;
-    border-radius: 4px;" target="_blank">爱发电</a>
 
 
 ## 感谢
