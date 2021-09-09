@@ -41,7 +41,6 @@ module.exports = {
                 children: [
                     '/guide/',
                     'requirement',
-                    'before-start',
                     'install',
                     'first-running',
                     'rules',
