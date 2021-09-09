@@ -8,5 +8,5 @@ Cardinal 这个名字来源于作品《刀剑神域》中的 `Cardinal System` �
 
 这也是我们对于 AWD 比赛平台的愿景，我们希望能有一个监测管理选手靶机动态，准确计算得分，自动更新靶机状态，并在发生异常时能及时反馈甚至自我调节修复的平台。因此，我将这个项目命名为 Cardinal。
 
-<img src="/img/Cardinal_01.png" width=700px/>
-<img src="/img/Cardinal_02.png" width=700px/>
+![](../.vuepress/public/img/Cardinal_01.png)
+![](../.vuepress/public/img/Cardinal_02.png)
