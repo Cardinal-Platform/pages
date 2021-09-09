@@ -4,7 +4,7 @@
 
 请注明您的名字或者昵称，方便我们感谢 ♪(･ω･)ﾉ
 
-[Alipay_QRCode](../vuepress/public/img/Vidarchan_qiafan.jpg)
+![Alipay_QRCode](../vuepress/public/img/Vidarchan_qiafan.jpg)
 
 ## 感谢
 
