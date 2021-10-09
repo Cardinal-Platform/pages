@@ -3,7 +3,7 @@ module.exports = {
     description: 'CTF AWD (Attack with Defense) 线下赛平台',
 
     themeConfig: {
-        repo: 'Cardinal-Platform/docs',
+        repo: 'Cardinal-Platform/pages',
         docsDir: 'docs',
 
         editLinks: true,
