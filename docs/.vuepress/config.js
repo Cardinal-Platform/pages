@@ -31,6 +31,10 @@ module.exports = {
             {
                 text: '常见问题',
                 link: '/question/'
+            },
+            {
+                text: '耻辱柱',
+                link: 'https://github.com/Cardinal-Platform/Hall-of-Shame'
             }
         ],
 
